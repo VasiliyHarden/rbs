@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Stock & Cart</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main__storage">
+        <h2 class="storage__title">Stock:</h2>
+        <div id="stock" class="storage__view"></div>
+      </div>
+      <div class="main__storage">
+        <h2 class="storage__title">Cart:</h2>
+        <div id="cart" class="storage__view"></div>
+      </div>
+    </div>
+    <span id="price" class="price"></span>
+
+    <script src="./src/constants.js"></script>
+    <script src="./src/initial-data.js"></script>
+    <script src="./src/item-creator.js"></script>
+    <script src="./src/item-list-view.js"></script>
+    <script src="./src/priced-item-list-view.js"></script>
+    <script src="./src/controller.js"></script>
+    <script src="./src/model.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
